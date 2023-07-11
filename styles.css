@@ -1,0 +1,27 @@
+/*Author: Jaren Quintana
+Date: 6/21/23
+Assignment Name: Fit For Fitness Club
+Filename: styles.css
+*/
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+header{
+    background-color: lightblue;
+    margin: 5px;
+}
+nav{
+    text-decoration: none;
+    box-shadow: 10px 5px 5px;
+}
+p {
+    color: gray;
+}
+table{
+width: 100%;
+}
+table, th, td{
+border: 3px red solid;
+background-color: lightblue;
+}

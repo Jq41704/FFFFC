@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    Author: Jaren Quintana
+    Date: 6/21/23
+    Assignment Name: Fit For Fitness Club
+    Filename: info.html
+    -->
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">FFFFC Homepage</a> |
+            <a href="classes.html">Classes</a> |
+            <a href="info.html">Info</a>
+        </nav>
+    </header>
+    <div class="container">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="fname">
+                    Name:
+                    <input autofocus type="text" name="fname" required id="fname" placeholder="first name">
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input type="text" name="lname" required id="lname" placeholder="last name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" name="email" required id="email" placeholder="Email">
+                </label>
+                <label for="telephone">
+                    Telephone:
+                    <input type="tel" name="telephone" required id="telephone" placeholder="telephone">
+                </label>
+                <label for="preferredcontactform">
+                    Preferred Contact Form:
+                    <select id="preferredcontactform" name="preferredcontactform">
+                        <option value="email">Email</option>
+                        <option value="telephone">Telephone</option>
+                        <option value="owl">Owl</option>
+                        <option value="telepathic message">Telepathic Message</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Class Selection
+                </legend>
+                <label for="AM">
+                    AM:
+                    <input type="radio" id="AM" name="PM" value="AM">
+                </label>
+                <label for="PM">
+                    PM:
+                    <input type="radio" id="PM" name="PM" value="PM">
+                </label>
+                <br>
+                <label for="crosstraining">
+                    Cross Training:
+                    <input type="checkbox" id="crosstraining" name="crosstraining" value="cross training">
+                </label>
+                <br>
+
+                <label for="sprint">
+                    Sprint:
+                    <input type="checkbox" id="sprint" name="sprint" value="sprint">
+                </label>
+                <br>
+
+                <label for="spin">
+                    Spin:
+                    <input type="checkbox" id="spin" name="spin" value="spin">
+                </label>
+                <br>
+
+                <label for="bodypump">
+                    Body Pump:
+                    <input type="checkbox" id="bodypump" name="bodypump" value="body pump">
+                </label>
+                <br>
+
+                <label for="bodycombat">
+                    Body Combat:
+                    <input type="checkbox" id="bodycombat" name="bodycombat" value="body combat">
+                </label>
+                <br>
+
+                <label for="stepinterval">
+                    Step Interval:
+                    <input type="checkbox" id="stepinterval" name="stepinterval" value="step interval">
+                </label>
+                <br>
+
+                <label for="advancedcrosstraining">
+                    Advanced Cross Training:
+                    <input type="checkbox" id="advancedcrosstraining" name="advancedcrosstraining"
+                        value="advanced cross training">
+                </label>
+                <br>
+
+                <label for="mixxedfit">
+                    MixxedFIT:
+                    <input type="checkbox" id="mixxedfit" name="mixxedfit" value="mixxedfit">
+                </label>
+                <br>
+
+                <label for="zumba">
+                    Zumba:
+                    <input type="checkbox" id="zumba" name="zumba" value="zumba">
+                </label>
+                <br>
+
+            </fieldset>
+            <input class="submit" type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
